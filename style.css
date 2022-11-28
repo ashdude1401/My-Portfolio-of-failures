@@ -211,6 +211,7 @@ background: linear-gradient(251deg, rgba(2,0,36,1) 0%, rgba(76,9,121,1) 40%, rgb
     .nav-bar{
         display: flex;
         margin-top: 0%;
+        margin-bottom: -12px;
         justify-content:space-evenly;
         align-items: center;
         border-bottom: 1px solid rgb(194, 193, 193);
@@ -233,6 +234,7 @@ background: linear-gradient(251deg, rgba(2,0,36,1) 0%, rgba(76,9,121,1) 40%, rgb
     }
     .intro{
         margin:12px 0px;
+        padding-top: 20px;
         border-bottom: 1px solid lightgrey;
     } 
     .blog-card{
@@ -242,12 +244,13 @@ background: linear-gradient(251deg, rgba(2,0,36,1) 0%, rgba(76,9,121,1) 40%, rgb
         align-items: center;
         border: 1px solid lightgray;
         border-radius: 20px;
-        margin: 12px 24px;
+        margin: 18px 24px;
         padding: 12px 24px;
     } 
     .blog-cards{
         margin: -14px 0px;
         padding: 10px;
+        text-align: center;
     }
     .blog-img{
         width: 100%;
